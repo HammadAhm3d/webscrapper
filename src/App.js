@@ -3,6 +3,7 @@ import Login from './views/Login';
 // import Dashboard from './views/Dashboard';
 import Scrape from './views/Scrape';
 import Authenticated from './components/Authenticated';
+import Home from './views/Home';
 // import Dashboard from './views/DashboardView/Dashboard';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Route exact path="/">
           <Authenticated>
             {/* <Dashboard /> */}
-            <Scrape/>
+            <Home/>
           </Authenticated>
         </Route>
         <Route exact path="/login">
